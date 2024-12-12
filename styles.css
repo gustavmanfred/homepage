@@ -1,25 +1,75 @@
+/* Grundlegendes Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    display: flex;
-    justify-content: center; /* Horizontal zentrieren */
-    align-items: center;    /* Vertikal zentrieren */
-    min-height: 100vh;      /* Höhe des Viewports */
-    margin: 0;              /* Kein zusätzlicher Abstand */
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dunkler Hintergrund */
+    color: white;
 }
 
-h1 {
-    color: blue;
+header {
+    background-color: #1a1a1a; /* Dunkelgrau für den Header */
+    color: #00bfff; /* Blau für Text */
+    padding: 10px 0;
 }
 
-p {
-    font-size: 10px;
-    color: cornflowerblue;
-    transition: ease-in 1s;
+nav ul {
+    list-style: none;
+    text-align: center;
 }
 
-button {
-    border-radius: 10%;
-    color: blueviolet;
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00bfff; /* Blau für Links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00bfff; /* Blau für Überschriften */
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#home {
+    background-color: #333; /* Dunkler Hintergrund für Home-Bereich */
+    padding: 100px 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Kleine Anpassungen für bessere Lesbarkeit */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+a {
+    color: #00bfff; /* Blau für Links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
