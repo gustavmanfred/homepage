@@ -1,4 +1,9 @@
 body {
+    display: flex;
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center;    /* Vertikal zentrieren */
+    min-height: 100vh;      /* Höhe des Viewports */
+    margin: 0;              /* Kein zusätzlicher Abstand */
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
